@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Marvel Photo Gallery</title>    
+		<!-- Main CSS File -->
+		<link rel="stylesheet" href="css/styles.css" type="text/css" />
+		<!-- Add fancyBox CSS -->
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox.css?v=2.1.5" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-thumbs.css?v=1.0.7" type="text/css" media="screen" />
+		<link rel="stylesheet" href="css/fancybox/jquery.fancybox-buttons.css?v=1.0.5" type="text/css" media="screen" />
+    </head>
+    <body>
+		<header>
+			<div class="container">
+				<nav id="navbar"></nav>
+			</div><!-- container -->
+		</header>
+		
+		<section id="main">
+			<div class="container">
+				<ul id="gallery">
+					<li data-tags="Avengers"><a class="fancybox" rel="group" href="img/spider.jpg"><img src="img/spider.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/beast.jpg"><img src="img/beast.jpg"></a></li>
+					<li data-tags="Avengers"><a class="fancybox" rel="group" href="img/black-widow.jpg"><img src="img/black-widow.jpg"></a></li>
+					<li data-tags="Others"><a class="fancybox" rel="group" href="img/blade.jpg"><img src="img/blade.jpg"></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/blink.jpg"><img src="img/blink.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/bluegirl.jpg"><img src="img/bluegirl.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/Cannonball.jpg"><img src="img/Cannonball.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/changeling.jpg"><img src="img/changeling.jpg"></a></li>
+					<li data-tags="Avengers"><a class="fancybox" rel="group" href="img/hulk.jpg"><img src="img/hulk.jpg"></a></li>
+					<li data-tags="Others"><a class="fancybox" rel="group" href="img/ghostrider.jpg"><img src="img/ghostrider.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/iceman.jpg"><img src="img/iceman.jpg"></a></li>
+					<li data-tags="Avengers"><a class="fancybox" rel="group" href="img/iron-man.jpg"><img src="img/iron-man.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/gambit.jpg"><img src="img/gambit.jpg"></a></li>
+					<li data-tags="Avengers"><a class="fancybox" rel="group" href="img/thor.jpg"><img src="img/thor.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/wolverine.jpg"><img src="img/wolverine.jpg"></a></li>
+					<li data-tags="The Great"><a class="fancybox" rel="group" href="img/batman.jpg"><img src="img/batman.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/magneto.jpg"><img src="img/magneto.jpg"></a></li>
+					<li data-tags="Avengers"><a class="fancybox" rel="group" href="img/quicksilver.jpg"><img src="img/quicksilver.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/Nightcrawler.jpg"><img src="img/Nightcrawler.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/cyclops.jpg"><img src="img/cyclops.jpg"></a></li>
+					<li data-tags="Others"><a class="fancybox" rel="group" href="img/daredevil.jpg"><img src="img/daredevil.jpg"></a></li>
+					<li data-tags="X-MEN"><a class="fancybox" rel="group" href="img/charles.jpg"><img src="img/charles.jpg"></a></li>		
+				</ul>
+			</div><!-- container -->
+			<hr>
+			<footer>
+				<div class="container">
+					<p>Animated Photo Gallery &copy; 2016</p>
+				</div><!-- container -->
+			</footer>
+		</section>
+		
+		<!-- Include JQuery -->
+		<script src="js/jquery.js"></script>
+		<!-- Quicksand Plugin -->
+		<script src="js/jquery.quicksand.js"></script>
+		<!-- Fancybox js -->
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox.pack.js?v=2.1.5"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-buttons.js"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-media.js?v=1.0.6"></script>
+		<script type="text/javascript" src="js/fancybox/jquery.fancybox-thumbs.js?v=1.0.7"></script>
+		<!-- Include Custom JS-->
+		<script src="js/script.js"></script>
+		<script>
+			//Call Fancybox
+			$(document).ready(function(){
+				$(".fancybox").fancybox();
+			});
+		</script>
+    </body>
+</html>s
